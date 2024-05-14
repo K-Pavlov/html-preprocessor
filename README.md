@@ -1,4 +1,4 @@
-## A small HTML preprocessor for generating static sties
+## A small HTML preprocessor for generating static sites
 
 - Uses plain old JavaScript and a few simple template tags
 - Partial HTML files can be imported with ##import("path/to/file"). ##import also can accept an object as a second parameter - the template scope. Must be valid JSON - ##import("path/to/file", {"key": "myValue", "key2": 5 })
