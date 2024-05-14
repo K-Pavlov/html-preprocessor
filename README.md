@@ -10,6 +10,10 @@
   - The "import" function accepts two arguments - a path to to the file that should be imported and a scope object
   - The expression "@= =@" can be viewed as a function body, as it is just a scoped eval
 
+## Usage
+
+node preprocessor.js path/to/input.html path/to/output.html
+
 ## Usage with the demos
 
-./dist/preprocessor.js demos/index.html ../result.html
+node ./dist/preprocessor.js demos/index.html ../result.html
