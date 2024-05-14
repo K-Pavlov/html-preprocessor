@@ -11,6 +11,6 @@
   },
   "scripts": {
     "tsc-watch": "tsc -w",
-    "build": "esbuild src/preprocessor.ts --minify --bundle --platform=node --outfile=dist/preprocessor.js --format=esm"
+    "build": "esbuild src/preprocessor.ts --minify --bundle --platform=node --outfile=dist/preprocessor.mjs --format=esm"
   }
 }

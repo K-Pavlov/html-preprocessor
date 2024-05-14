@@ -12,8 +12,8 @@
 
 ## Usage
 
-node preprocessor.js path/to/input.html path/to/output.html
+node preprocessor.mjs path/to/input.html path/to/output.html
 
 ## Usage with the demos
 
-node ./dist/preprocessor.js demos/index.html ../result.html
+node ./dist/preprocessor.mjs demos/index.html ../result.html
