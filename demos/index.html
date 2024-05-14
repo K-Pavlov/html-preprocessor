@@ -1,0 +1,24 @@
+<html>
+
+    <body>
+        ##import("_partial.html", { "test" : "test"})
+        @=
+            let res = '';
+            for (let i = 0; i < 5; i ++) {
+            res +=await this.import("_partial.html")
+            }
+
+            return res;
+        =@
+        <div>
+            ##import("_partial.html", { "test" : 1})
+            <div>
+                ##import("_partial.html", { "test" : 2})
+                <div>
+                    ##import("_partial.html", { "test" : 3})
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

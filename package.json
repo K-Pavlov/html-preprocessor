@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "pretty": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.10",
+    "typescript": "^5.1.6",
+    "esbuild": "^0.21.2"
+  },
+  "scripts": {
+    "tsc-watch": "tsc -w",
+    "build": "esbuild src/preprocessor.ts --minify --bundle --platform=node --outfile=dist/preprocessor.js --format=esm"
+  }
+}
